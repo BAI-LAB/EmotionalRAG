@@ -26,7 +26,7 @@ This repository contains the code for the paper "Emotional RAG: Enhancing Role-P
    wget https://github.com/morecry/CharacterEval/raw/refs/heads/main/data/test_data.jsonl
    wget https://raw.githubusercontent.com/morecry/CharacterEval/refs/heads/main/data/character_profiles.json
    ```
-   Place the files from the [CharacterEval dataset](https://github.com/morecry/CharacterEval/tree/main/data) into the `data/CharacterEval` directory.
+   Place the files from the [CharacterEval dataset](https://github.com/morecry/CharacterEval/tree/main/data) into the `data/charactereval` directory.
 
 2. **Generate query_bank**:
    ```bash
