@@ -1,0 +1,12 @@
+# Directory
+.vscode/
+.idea/
+__pycache__/
+*.ipynb_checkpoints/
+result/
+
+# File
+*.log
+*.pyc
+# *.ipynb
+# *.jsonl

@@ -1,0 +1,164 @@
+{
+    "pdb": {
+        "佟湘玉": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 100.0,
+                    "type": "H"
+                },
+                "S/N": {
+                    "score": 79.0,
+                    "type": "H"
+                },
+                "T/F": {
+                    "score": 14.0,
+                    "type": "L"
+                },
+                "P/J": {
+                    "score": 0.0,
+                    "type": "L"
+                }
+            }
+        },
+        "白展堂": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 93.0,
+                    "type": "H"
+                },
+                "S/N": {
+                    "score": 38.0,
+                    "type": "L"
+                },
+                "T/F": {
+                    "score": 97.0,
+                    "type": "H"
+                },
+                "P/J": {
+                    "score": 97.0,
+                    "type": "H"
+                }
+            }
+        },
+        "郭芙蓉": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 100.0,
+                    "type": "H"
+                },
+                "S/N": {
+                    "score": 50.0,
+                    "type": "L"
+                },
+                "T/F": {
+                    "score": 17.0,
+                    "type": "L"
+                },
+                "P/J": {
+                    "score": 100.0,
+                    "type": "H"
+                }
+            }
+        },
+        "祝无双": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 10.0,
+                    "type": "L"
+                },
+                "S/N": {
+                    "score": 90.0,
+                    "type": "H"
+                },
+                "T/F": {
+                    "score": 0.0,
+                    "type": "L"
+                },
+                "P/J": {
+                    "score": 0.0,
+                    "type": "L"
+                }
+            }
+        },
+        "李逵": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 100.0,
+                    "type": "H"
+                },
+                "S/N": {
+                    "score": 100.0,
+                    "type": "H"
+                },
+                "T/F": {
+                    "score": 0.0,
+                    "type": "L"
+                },
+                "P/J": {
+                    "score": 100.0,
+                    "type": "H"
+                }
+            }
+        },
+        "猪八戒": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 80.0,
+                    "type": "H"
+                },
+                "S/N": {
+                    "score": 80.0,
+                    "type": "H"
+                },
+                "T/F": {
+                    "score": 0.0,
+                    "type": "L"
+                },
+                "P/J": {
+                    "score": 80.0,
+                    "type": "H"
+                }
+            }
+        },
+        "孙悟空": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 99.0,
+                    "type": "H"
+                },
+                "S/N": {
+                    "score": 44.0,
+                    "type": "L"
+                },
+                "T/F": {
+                    "score": 96.0,
+                    "type": "H"
+                },
+                "P/J": {
+                    "score": 100.0,
+                    "type": "H"
+                }
+            }
+        },
+        "唐三藏": {
+            "16Personalities": {
+                "E/I": {
+                    "score": 0.0,
+                    "type": "L"
+                },
+                "S/N": {
+                    "score": 0.0,
+                    "type": "L"
+                },
+                "T/F": {
+                    "score": 0.0,
+                    "type": "L"
+                },
+                "P/J": {
+                    "score": 0.0,
+                    "type": "L"
+                }
+            }
+        }
+    }
+}

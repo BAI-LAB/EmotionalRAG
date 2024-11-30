@@ -1,0 +1,554 @@
+{
+    "name": "BFI",
+    "full_name": "Big Five Inventory",
+    "psychobench_prompt": "You can only reply numbers from 1 to 5 in the following statements. Here are a number of characteristics that may or may not apply to you. Please indicate the extent to which you agree or disagree with that statement. 1 denotes 'strongly disagree', 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 4 denotes 'little agree', 5 denotes 'strongly agree'. Here are the statements, score them one by one:",
+    "psychobench_prompt_choice_instruction": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly disagree' 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 4 denotes 'little agree', and 5 denotes 'strongly agree'.",
+    "scale": 6,
+    "compute_mode": "AVG",
+    "reverse": [
+        6,
+        21,
+        31,
+        2,
+        12,
+        27,
+        37,
+        8,
+        18,
+        23,
+        43,
+        9,
+        24,
+        34,
+        35,
+        41
+    ],
+    "categories": [
+        {
+            "cat_name": "Extraversion",
+            "cat_questions": [
+                1,
+                6,
+                11,
+                16,
+                21,
+                26,
+                31,
+                36
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.25,
+                    "std": 0.9,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Agreeableness",
+            "cat_questions": [
+                2,
+                7,
+                12,
+                17,
+                22,
+                27,
+                32,
+                37,
+                42
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.64,
+                    "std": 0.72,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Conscientiousness",
+            "cat_questions": [
+                3,
+                8,
+                13,
+                18,
+                23,
+                28,
+                33,
+                38,
+                43
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.45,
+                    "std": 0.73,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Neuroticism",
+            "cat_questions": [
+                4,
+                9,
+                14,
+                19,
+                24,
+                29,
+                34,
+                39
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.32,
+                    "std": 0.82,
+                    "n": 6076
+                }
+            ]
+        },
+        {
+            "cat_name": "Openness",
+            "cat_questions": [
+                5,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40,
+                41,
+                44
+            ],
+            "crowd": [
+                {
+                    "crowd_name": "Crowd",
+                    "mean": 3.92,
+                    "std": 0.66,
+                    "n": 6076
+                }
+            ]
+        }
+    ],
+    "range": [
+        1,
+        5
+    ],
+    "questions": {
+        "1": {
+            "origin_en": "Is talkative.",
+            "origin_zh": "健谈。",
+            "rewritten_en": "Are you talkative?",
+            "rewritten_zh": "你健谈吗？",
+            "dimension": "Extraversion",
+            "category": "positive"
+        },
+        "2": {
+            "origin_en": "Tends to find fault with others.",
+            "origin_zh": "倾向于找别人的错。",
+            "rewritten_en": "Do you tend to find fault with others?",
+            "rewritten_zh": "你倾向于找别人的错吗？",
+            "dimension": "Agreeableness",
+            "category": "negative"
+        },
+        "3": {
+            "origin_en": "Does a thorough job.",
+            "origin_zh": "做事彻底。",
+            "rewritten_en": "Do you do a thorough job?",
+            "rewritten_zh": "你做事彻底吗？",
+            "dimension": "Conscientiousness",
+            "category": "positive"
+        },
+        "4": {
+            "origin_en": "Is depressed, blue.",
+            "origin_zh": "情绪低落，沮丧。",
+            "rewritten_en": "Are you depressed, blue?",
+            "rewritten_zh": "你情绪低落，沮丧吗？",
+            "dimension": "Neuroticism",
+            "category": "positive"
+        },
+        "5": {
+            "origin_en": "Is original, comes up with new ideas.",
+            "origin_zh": "富有创意，能提出新主意。",
+            "rewritten_en": "Do you come up with new ideas?",
+            "rewritten_zh": "你能提出新主意吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "6": {
+            "origin_en": "Is reserved.",
+            "origin_zh": "内向。",
+            "rewritten_en": "Are you reserved?",
+            "rewritten_zh": "你内向吗？",
+            "dimension": "Extraversion",
+            "category": "negative"
+        },
+        "7": {
+            "origin_en": "Is helpful and unselfish with others.",
+            "origin_zh": "乐于助人，无私。",
+            "rewritten_en": "Are you helpful and unselfish with others?",
+            "rewritten_zh": "你乐于助人，无私吗？",
+            "dimension": "Agreeableness",
+            "category": "positive"
+        },
+        "8": {
+            "origin_en": "Can be somewhat careless.",
+            "origin_zh": "有点粗心。",
+            "rewritten_en": "Can you be somewhat careless?",
+            "rewritten_zh": "你有点粗心吗？",
+            "dimension": "Conscientiousness",
+            "category": "negative"
+        },
+        "9": {
+            "origin_en": "Is relaxed, handles stress well.",
+            "origin_zh": "放松，应对压力良好。",
+            "rewritten_en": "Are you relaxed and handle stress well?",
+            "rewritten_zh": "你放松，应对压力良好吗？",
+            "dimension": "Neuroticism",
+            "category": "negative"
+        },
+        "10": {
+            "origin_en": "Is curious about many different things.",
+            "origin_zh": "对许多不同的事情感到好奇。",
+            "rewritten_en": "Are you curious about many different things?",
+            "rewritten_zh": "你对许多不同的事情感到好奇吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "11": {
+            "origin_en": "Is full of energy.",
+            "origin_zh": "充满活力。",
+            "rewritten_en": "Are you full of energy?",
+            "rewritten_zh": "你充满活力吗？",
+            "dimension": "Extraversion",
+            "category": "positive"
+        },
+        "12": {
+            "origin_en": "Starts quarrels with others.",
+            "origin_zh": "经常与他人争吵。",
+            "rewritten_en": "Do you start quarrels with others?",
+            "rewritten_zh": "你经常与他人争吵吗？",
+            "dimension": "Agreeableness",
+            "category": "negative"
+        },
+        "13": {
+            "origin_en": "Is a reliable worker.",
+            "origin_zh": "是一个可靠的工作者。",
+            "rewritten_en": "Are you a reliable worker?",
+            "rewritten_zh": "你是一个可靠的工作者吗？",
+            "dimension": "Conscientiousness",
+            "category": "positive"
+        },
+        "14": {
+            "origin_en": "Can be tense.",
+            "origin_zh": "可能会感到紧张。",
+            "rewritten_en": "Can you be tense?",
+            "rewritten_zh": "你可能会感到紧张吗？",
+            "dimension": "Neuroticism",
+            "category": "positive"
+        },
+        "15": {
+            "origin_en": "Is ingenious, a deep thinker.",
+            "origin_zh": "很有创造力，思维深刻。",
+            "rewritten_en": "Are you ingenious, a deep thinker?",
+            "rewritten_zh": "你很有创造力，思维深刻吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "16": {
+            "origin_en": "Generates a lot of enthusiasm.",
+            "origin_zh": "能激发很多热情。",
+            "rewritten_en": "Do you generate a lot of enthusiasm?",
+            "rewritten_zh": "你能激发很多热情吗？",
+            "dimension": "Extraversion",
+            "category": "positive"
+        },
+        "17": {
+            "origin_en": "Has a forgiving nature.",
+            "origin_zh": "具有宽容的天性。",
+            "rewritten_en": "Do you have a forgiving nature?",
+            "rewritten_zh": "你具有宽容的天性吗？",
+            "dimension": "Agreeableness",
+            "category": "positive"
+        },
+        "18": {
+            "origin_en": "Tends to be disorganized.",
+            "origin_zh": "倾向于杂乱无章。",
+            "rewritten_en": "Do you tend to be disorganized?",
+            "rewritten_zh": "你倾向于杂乱无章吗？",
+            "dimension": "Conscientiousness",
+            "category": "negative"
+        },
+        "19": {
+            "origin_en": "Worries a lot.",
+            "origin_zh": "经常担心。",
+            "rewritten_en": "Do you worry a lot?",
+            "rewritten_zh": "你经常担心吗？",
+            "dimension": "Neuroticism",
+            "category": "positive"
+        },
+        "20": {
+            "origin_en": "Has an active imagination.",
+            "origin_zh": "想象力丰富。",
+            "rewritten_en": "Do you have an active imagination?",
+            "rewritten_zh": "你想象力丰富吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "21": {
+            "origin_en": "Tends to be quiet.",
+            "origin_zh": "倾向于安静。",
+            "rewritten_en": "Do you tend to be quiet?",
+            "rewritten_zh": "你倾向于安静吗？",
+            "dimension": "Extraversion",
+            "category": "negative"
+        },
+        "22": {
+            "origin_en": "Is generally trusting.",
+            "origin_zh": "一般来说是信任他人的。",
+            "rewritten_en": "Are you generally trusting?",
+            "rewritten_zh": "你一般来说是信任他人的吗？",
+            "dimension": "Agreeableness",
+            "category": "positive"
+        },
+        "23": {
+            "origin_en": "Tends to be lazy.",
+            "origin_zh": "倾向于懒惰。",
+            "rewritten_en": "Do you tend to be lazy?",
+            "rewritten_zh": "你倾向于懒惰吗？",
+            "dimension": "Conscientiousness",
+            "category": "negative"
+        },
+        "24": {
+            "origin_en": "Is emotionally stable, not easily upset.",
+            "origin_zh": "情绪稳定，不容易心烦意乱。",
+            "rewritten_en": "Are you emotionally stable, not easily upset?",
+            "rewritten_zh": "你情绪稳定，不容易心烦意乱吗？",
+            "dimension": "Neuroticism",
+            "category": "negative"
+        },
+        "25": {
+            "origin_en": "Is inventive.",
+            "origin_zh": "富有创造力。",
+            "rewritten_en": "Are you inventive?",
+            "rewritten_zh": "你富有创造力吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "26": {
+            "origin_en": "Has an assertive personality.",
+            "origin_zh": "性格坚定。",
+            "rewritten_en": "Do you have an assertive personality?",
+            "rewritten_zh": "你性格坚定吗？",
+            "dimension": "Extraversion",
+            "category": "positive"
+        },
+        "27": {
+            "origin_en": "Can be cold and aloof.",
+            "origin_zh": "可能冷漠孤僻。",
+            "rewritten_en": "Can you be cold and aloof?",
+            "rewritten_zh": "你可能冷漠孤僻吗？",
+            "dimension": "Agreeableness",
+            "category": "negative"
+        },
+        "28": {
+            "origin_en": "Perseveres until the task is finished.",
+            "origin_zh": "坚持直到任务完成。",
+            "rewritten_en": "Do you persevere until the task is finished?",
+            "rewritten_zh": "你坚持直到任务完成吗？",
+            "dimension": "Conscientiousness",
+            "category": "positive"
+        },
+        "29": {
+            "origin_en": "Can be moody.",
+            "origin_zh": "可能情绪多变。",
+            "rewritten_en": "Can you be moody?",
+            "rewritten_zh": "你可能情绪多变吗？",
+            "dimension": "Neuroticism",
+            "category": "positive"
+        },
+        "30": {
+            "origin_en": "Values artistic, aesthetic experiences.",
+            "origin_zh": "重视艺术和审美体验。",
+            "rewritten_en": "Do you value artistic, aesthetic experiences?",
+            "rewritten_zh": "你重视艺术和审美体验吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "31": {
+            "origin_en": "Is sometimes shy, inhibited.",
+            "origin_zh": "有时害羞，拘谨。",
+            "rewritten_en": "Are you sometimes shy, inhibited?",
+            "rewritten_zh": "有时害羞，拘谨吗？",
+            "dimension": "Extraversion",
+            "category": "negative"
+        },
+        "32": {
+            "origin_en": "Is considerate and kind to almost everyone.",
+            "origin_zh": "对几乎所有人都考虑周到和友善。",
+            "rewritten_en": "Are you considerate and kind to almost everyone?",
+            "rewritten_zh": "对几乎所有人都考虑周到和友善吗？",
+            "dimension": "Agreeableness",
+            "category": "positive"
+        },
+        "33": {
+            "origin_en": "Does things efficiently.",
+            "origin_zh": "高效地做事。",
+            "rewritten_en": "Do you do things efficiently?",
+            "rewritten_zh": "高效地做事吗？",
+            "dimension": "Conscientiousness",
+            "category": "positive"
+        },
+        "34": {
+            "origin_en": "Remains calm in tense situations.",
+            "origin_zh": "在紧张的情况下保持冷静。",
+            "rewritten_en": "Do you remain calm in tense situations?",
+            "rewritten_zh": "在紧张的情况下保持冷静吗？",
+            "dimension": "Neuroticism",
+            "category": "negative"
+        },
+        "35": {
+            "origin_en": "Prefers work that is routine.",
+            "origin_zh": "喜欢例行公事。",
+            "rewritten_en": "Do you prefer work that is routine?",
+            "rewritten_zh": "喜欢例行公事吗？",
+            "dimension": "Openness",
+            "category": "negative"
+        },
+        "36": {
+            "origin_en": "Is outgoing, sociable.",
+            "origin_zh": "外向，善于交际。",
+            "rewritten_en": "Are you outgoing, sociable?",
+            "rewritten_zh": "外向，善于交际吗？",
+            "dimension": "Extraversion",
+            "category": "positive"
+        },
+        "37": {
+            "origin_en": "Is sometimes rude to others.",
+            "origin_zh": "有时对别人粗鲁。",
+            "rewritten_en": "Are you sometimes rude to others?",
+            "rewritten_zh": "有时对别人粗鲁吗？",
+            "dimension": "Agreeableness",
+            "category": "negative"
+        },
+        "38": {
+            "origin_en": "Makes plans and follows through with them.",
+            "origin_zh": "制定计划并付诸实施。",
+            "rewritten_en": "Do you make plans and follow through with them?",
+            "rewritten_zh": "制定计划并付诸实施吗？",
+            "dimension": "Conscientiousness",
+            "category": "positive"
+        },
+        "39": {
+            "origin_en": "Gets nervous easily.",
+            "origin_zh": "容易紧张。",
+            "rewritten_en": "Do you get nervous easily?",
+            "rewritten_zh": "容易紧张吗？",
+            "dimension": "Neuroticism",
+            "category": "positive"
+        },
+        "40": {
+            "origin_en": "Likes to reflect, play with ideas.",
+            "origin_zh": "喜欢反思，玩弄想法。",
+            "rewritten_en": "Do you like to reflect, play with ideas?",
+            "rewritten_zh": "喜欢反思，玩弄想法吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        },
+        "41": {
+            "origin_en": "Has few artistic interests.",
+            "origin_zh": "艺术兴趣不多。",
+            "rewritten_en": "Do you have few artistic interests?",
+            "rewritten_zh": "你有很少的艺术兴趣吗？",
+            "dimension": "Openness",
+            "category": "negative"
+        },
+        "42": {
+            "origin_en": "Likes to cooperate with others.",
+            "origin_zh": "喜欢与他人合作。",
+            "rewritten_en": "Do you like to cooperate with others?",
+            "rewritten_zh": "你喜欢与他人合作吗？",
+            "dimension": "Agreeableness",
+            "category": "positive"
+        },
+        "43": {
+            "origin_en": "Is easily distracted.",
+            "origin_zh": "容易分心。",
+            "rewritten_en": "Are you easily distracted?",
+            "rewritten_zh": "你容易分心吗？",
+            "dimension": "Conscientiousness",
+            "category": "negative"
+        },
+        "44": {
+            "origin_en": "Is sophisticated in art, music, or literature.",
+            "origin_zh": "在艺术、音乐或文学方面很有造诣。",
+            "rewritten_en": "Are you sophisticated in art, music, or literature?",
+            "rewritten_zh": "你在艺术、音乐或文学方面很有造诣吗？",
+            "dimension": "Openness",
+            "category": "positive"
+        }
+    },
+    "prompts": {
+        "rpa_choose_prefix": {
+            "en": "Do you think that the statement \"<statement>\" applies to you?",
+            "zh": "你认为\"<statement>\"这个说法适用于你吗？"
+        },
+        "convert_to_choice": {
+            "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> agrees with the statement. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n",
+            "zh": "我已经和<character>进行了许多对话。我将输入一个包含许多样本的字典，其中每个样本包括一个陈述和一段对话。\n你的任务是将每段对话转换为一个选择，指示<character>是否同意该陈述。你应该输出一个字典，其中键与输入字典相同，值为选择。\n===输出格式===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===选择指示==="
+        },
+        "llm_choice_instruction": {
+            "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly disagree' 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 4 denotes 'little agree', and 5 denotes 'strongly agree'. In case <character> refuses to answer the question, use \"x\" to indicate it.",
+            "zh": "每个选择都是从1到5的数字。请根据对话使用以下评分标准评估<character>：1代表“非常不同意”，2代表“有点不同意”，3代表“既不同意也不同意”，4代表“有点同意”，5代表“非常同意”。如果<character>拒绝回答该问题，用“x”表示。"
+        },
+        "rpa_choice_instruction": {
+            "en": "Reply a number from 1 to 5 using the scales: 1 denotes 'strongly disagree', 2 denotes 'a little disagree', 3 denotes 'neither agree nor disagree', 4 denotes 'little agree', and 5 denotes 'strongly agree'. Please answer with the number only, without anything else.",
+            "zh": "请用1到5的等级来回答，1代表“非常不同意”，2代表“有点不同意”，3代表“既不同意也不反对”，4代表“有点同意”，5代表“非常同意”。请你只回答这一个数字，不要说其他内容。"
+        },
+        "dim_desc": {
+            "Conscientiousness": "Conscientiousness in the Big Five Inventory relates to impulse control, organization, and goal-directed behavior. It differentiates disciplined, reliable individuals from those who are disorganized. Key traits include self-control, delaying gratification, and avoiding impulsiveness, which can lead to negative outcomes.\nThe six facets of conscientiousness are:\n1. Competence: Capability and effectiveness.\n2. Order: Organization and methodical approach.\n3. Dutifulness: Moral adherence and reliability.\n4. Achievement Striving: Ambition and diligence.\n5. Self-Discipline: Task initiation and persistence.\n6. Deliberation: Thoughtful decision-making.\nThese facets contrast high scorers, demonstrating strong traits, with low scorers, showing opposite tendencies like disorganization and impulsivity.",
+            "Openness": "Openness in the Big Five Inventory relates to a cognitive style that values exploration and appreciation of new experiences. It differentiates intellectually curious, creative individuals from those who are traditional and closed-minded. Openness involves a preference for abstract over concrete thinking and a tendency towards novelty rather than convention.\nThe six facets of openness are:\n1. Fantasy: Active imagination and vivid fantasy life.\n2. Aesthetics: Deep appreciation for art and beauty.\n3. Feelings: Sensitivity to, recognition, and valuing of one's own emotions.\n4. Actions: Willingness to try new experiences and embrace change.\n5. Ideas: Intellectual curiosity and openness to unconventional ideas.\n6. Values: Reexamination of social, political, and religious values, challenging tradition and authority.\nThese facets highlight a contrast between high scorers, who display strong openness traits, and low scorers, who exhibit more conventional, practical thinking.",
+            "Agreeableness": "Agreeableness in the Big Five Inventory assesses an individual's likability and attitudes towards others, balancing compassion and sympathy with antagonism and distrust. It encapsulates a broad interpersonal orientation, emphasizing cooperation and social harmony.\nThe six facets of agreeableness are:\n1. Trust: Belief in others' honesty and good intentions.\n2. Straightforwardness: Frankness and sincerity, contrasting with manipulative tendencies.\n3. Altruism: Generosity and willingness to assist others.\n4. Compliance: Preference for harmony over conflict, with a tendency to be accommodating.\n5. Modesty: Humbleness and self-effacement, as opposed to arrogance.\n6. Tender-mindedness: Sympathy and concern for others, versus a more hardheaded and objective approach.\nHigh scorers in agreeableness are seen as good-natured, cooperative, and trusting, whereas low scorers may prioritize self-interest, be indifferent to others, and exhibit skepticism towards people's motives.",
+            "Extraversion": "Extraversion in the Big Five Inventory measures the quantity and intensity of interpersonal interaction, need for stimulation, and capacity for joy, contrasting social, outgoing individuals with reserved, shy types. It's evaluated through interpersonal involvement and activity level.\nThe six facets of extraversion are:\n1. Warmth: Affection and friendliness, with high scorers enjoying close relationships.\n2. Gregariousness: Preference for company, with high scorers enjoying lively settings.\n3. Assertiveness: Social dominance, with high scorers often becoming leaders.\n4. Activity: Pace of life, with high scorers leading fast-paced, busy lives.\n5. Excitement Seeking: Craving for stimulation, with high scorers seeking thrills.\n6. Positive Emotions: Tendency to experience joy and optimism.\nExtraverted people are energetic, enjoy interaction, and often feel positive emotions. They are enthusiastic and seek excitement. Introverted individuals are quieter, cautious, and value solitude, often misunderstood as unfriendly or arrogant, but can be kind and approachable.",
+            "Neuroticism": "Neuroticism, or Emotional Stability, in the Big Five Inventory, refers to tendencies towards anxiety, hostility, depression, self-consciousness, impulsiveness, and vulnerability. It contrasts individuals who are prone to emotional instability with those who are emotionally stable and less reactive to stress.\nThe six facets of neuroticism are:\n1. Anxiety: High levels indicate a tendency to worry and feel tense.\n2. Angry Hostility: Reflects the ease of experiencing anger and frustration.\n3. Depression: Measures the tendency to feel sadness, hopelessness, and loneliness.\n4. Self-Consciousness: Involves shyness and sensitivity to social scrutiny.\n5. Impulsiveness: Indicates difficulty in controlling cravings and urges.\n6. Vulnerability: Measures susceptibility to stress and difficulty coping.\nHigh scorers in neuroticism may experience more negative emotions like fear, anger, and sadness, and find it hard to cope with stress. Low scorers tend to be calmer, more relaxed, and emotionally stable, handling stress and social situations more effectively."
+        },
+        "convert_to_choice_adjoption": {
+            "Extraversion": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly extraverted personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Agreeableness": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly agreeable personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Conscientiousness": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly conscientious personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Neuroticism": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly neurotic personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            },
+            "Openness": {
+                "en": "I have conducted many conversations with <character>. I will input a dict of many samples, where each sample consists of a statement and a conversation. \nYour task is to convert each conversation into a choice indicating whether <character> displays a highly open personality. You should output a dict, where the keys are the same as the input dict, and the values are the choices. \n===OUTPUT FORMAT===\n{\n    \"<i_start>\": <choice 1>,\n    ...\n    \"<i_end>\": <choice n>\n}\n===CHOICE INSTRUCTION===\n"
+            }
+        },
+        "llm_choice_instruction_adjoption": {
+            "Extraversion": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly introverted' 2 denotes 'a little introverted', 3 denotes 'neutral', 4 denotes 'little extroverted', and 5 denotes 'strongly extroverted'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Agreeableness": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly egocentric' 2 denotes 'a little egocentric', 3 denotes 'neutral', 4 denotes 'little agreeable', and 5 denotes 'strongly agreeable'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Conscientiousness": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly unstructured' 2 denotes 'a little unstructured', 3 denotes 'neutral', 4 denotes 'little organized', and 5 denotes 'strongly organized'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Neuroticism": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly calm' 2 denotes 'a little calm', 3 denotes 'neutral', 4 denotes 'little limbic', and 5 denotes 'strongly limbic'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            },
+            "Openness": {
+                "en": "Each choice is a number from 1 to 5. Please evaluate <character> based on the conversation using the scales: 1 denotes 'strongly non-curious' 2 denotes 'a little non-curious', 3 denotes 'neutral', 4 denotes 'little inquisitive', and 5 denotes 'strongly inquisitive'. In case <character> refuses to answer the question, use \"x\" to indicate it."
+            }
+        }
+    }
+}
